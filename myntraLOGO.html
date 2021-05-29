@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Myntra Logo</title>
+	<style>
+	.myntra{
+		margin:40px auto;
+		max-width: 100%;
+		width: 320px;
+		height: 250px;
+		position: relative;
+	}
+	.myntra div{
+		position: absolute;
+		height: 200px;
+		width: 65px;
+		border-radius: 50% 50% 50% 50%/63% 63% 37% 37%
+	}
+	.myntra div:nth-child(1){
+		left: 40px;
+		top: 10px;
+		transform: rotate(20deg);
+		background-color: rgba(157,30,97,0.9);
+		animation: move1 5s ease-in 2s 1 alternate;
+	}
+	.myntra div:nth-child(2){
+		left: 102px;
+		top: 10px;
+		transform: rotate(-20deg);
+		background-color: rgba(241,115,31,0.8);
+		animation: move2 5s ease-in 2s 1 alternate;
+	}
+	.myntra div:nth-child(3){
+		left: 158px;
+		top: 10px;
+		transform: rotate(20deg);
+		background-color: rgba(241,115,31,0.9);
+		animation: move3 5s ease-in 2s 1 alternate;
+	}
+	.myntra div:nth-child(4){
+		left: 220px;
+		top: 10px;
+		transform: rotate(-20deg);
+		background-color: rgba(253,0,206,0.9);
+		animation: move4 5s ease-in 2s 1 alternate;
+	}
+</style>
+</head>
+<body>
+<div class="myntra">
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+</div>
+
+</body>
+</html>
+
+
